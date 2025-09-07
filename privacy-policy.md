@@ -1,5 +1,102 @@
-# Privacy Policy
-
-This app does not collect, use, store, or share any personal information.
-
-If you have any questions about this Privacy Policy, contact us at: [your contact email]
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>LetsFocus App Privacy Policy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+      background: linear-gradient(120deg, #5990eb 0%, #8a61db 100%);
+    }
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container {
+      background: rgba(255,255,255,0.93);
+      border-radius: 24px;
+      box-shadow: 0 8px 32px rgba(90,120,200,0.11);
+      padding: 40px 26px 32px 26px;
+      max-width: 500px;
+      width: 95vw;
+      text-align: center;
+      color: #23224d;
+      margin: 30px;
+    }
+    h1 {
+      color: #4b38db;
+      margin-bottom: 20px;
+      font-size: 2rem;
+      font-weight: 900;
+      letter-spacing: -1px;
+    }
+    h2 {
+      color: #33335d;
+      font-size: 1.17rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+      margin-top: 14px;
+    }
+    a {
+      color: #24c96b;
+      font-weight: 500;
+      text-decoration: underline;
+      word-break: break-all;
+      font-size: 1.07em;
+    }
+    p {
+      font-size: 1.14em;
+      margin-bottom: 18px;
+      margin-top: 0;
+    }
+    ul {
+      text-align: left;
+      margin-top: 14px;
+      margin-bottom: 18px;
+    }
+    .small {
+      font-size: 0.97em;
+      color: #5a5cb8;
+      margin-top: 0;
+    }
+    @media (max-width: 700px) {
+      .container { padding: 16px 4vw; max-width: 98vw;}
+      h1 { font-size:1.4em }
+      h2 { font-size:1.07em }
+      p { font-size:1em }
+    }
+    @media (max-width: 420px) {
+      h1, h2 { font-size: 1.08em; }
+      .container { padding: 7vw 1vw; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>LetsFocus App<br>Privacy Policy</h1>
+    <h2>We respect your privacy.</h2>
+    <p>
+      <strong>LetsFocus</strong> does not collect, store, or share any personal information.
+    </p>
+    <ul>
+      <li>We do not collect your name, email address, or any personal identifiers.</li>
+      <li>No usage analytics or tracking are performed.</li>
+      <li>Any data used in the app stays on your device.</li>
+    </ul>
+    <p>
+      If you have any questions or concerns about this privacy policy,<br />
+      contact us at:<br />
+      <a href="mailto:allen.webeuseful@gmail.com">allen.webeuseful@gmail.com</a>
+    </p>
+    <p class="small">
+      Thank you for trusting LetsFocus to protect your privacy.
+    </p>
+  </div>
+</body>
+</html>
